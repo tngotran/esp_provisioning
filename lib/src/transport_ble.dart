@@ -5,7 +5,7 @@ import 'package:flutter_ble_lib_ios_15/flutter_ble_lib.dart';
 import 'transport.dart';
 
 class TransportBLE implements ProvTransport {
-  final Peripheral peripheral;
+  final Peripheral? peripheral;
   final String serviceUUID;
   Map<String, String> nuLookup;
   final Map<String, String> lockupTable;
